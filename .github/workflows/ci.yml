@@ -164,6 +164,6 @@ jobs:
           #   ghcr.io/${{ github.repository_owner }}/expo:latest
           #   ghcr.io/${{ github.repository_owner }}/expo:${{ github.sha }}
           tags: |
-            ghcr.io/habits-lab-mmacedo/expo:1.0
-            ghcr.io/habits-lab-mmacedo/expo:latest
-            ghcr.io/habits-lab-mmacedo/expo:${{ github.sha }}
+            ghcr.io/tanushree2241/expo:1.0
+            ghcr.io/tanushree2241/expo:latest
+            ghcr.io/tanushree2241/expo:${{ github.sha }}

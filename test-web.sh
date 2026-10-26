@@ -23,6 +23,7 @@ check "5 ^ 0"                 "/calculate?base=5&exponent=0"    "5 ^ 0 = 1"
 check "square root of 9"      "/calculate?base=9&exponent=0.5"  "9 ^ 0.5 = 3"
 check "abc is rejected"       "/calculate?base=abc&exponent=2"  "\"ok\": false"
 check "-8 ^ 0.5 is rejected"  "/calculate?base=-8&exponent=0.5" "\"ok\": false"
+check "3 ^ 4" "/calculate?base=3&exponent=4" "3 ^ 4 = 81"
 
 if [ "$FAILED" -eq 0 ]; then
   echo "All website tests passed"
